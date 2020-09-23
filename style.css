@@ -3,11 +3,50 @@ body {
     margin: 0;
   }
 
-  .content {
+div {
     background-color: #ffffff;
-    width: 960px;
-    margin: auto;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px 30px 65px 30px;
     font-family: arial;
-    font-size: 16px;
+    font-size: 12px;
   }
+
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.content h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.content h3 {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.content h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.content h5 {
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+
+.content h6 {
+    font-size: 12px;
+    margin-bottom: 26px;
+}
+
+.content p {
+    margin-bottom: 25px;
+}
