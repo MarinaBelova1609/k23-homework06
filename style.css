@@ -15,8 +15,6 @@ div {
 
 .content h1 {
     font-size: 32px;
-    margin-bottom: 60px;
-    margin-top: 80px;
     text-transform: uppercase;
 }
 
@@ -27,26 +25,80 @@ div {
 
 .content h3 {
     font-size: 22px;
-    margin-top: 50px;
-    margin-bottom: 40px;
     text-transform: uppercase;
 }
 
 .content h4 {
     font-size: 20px;
-    margin-bottom: 30px;
 }
 
 .content h5 {
     font-size: 16px;
-    margin-bottom: 26px;
 }
 
 .content h6 {
     font-size: 12px;
-    margin-bottom: 26px;
 }
 
 .content p {
     margin-bottom: 25px;
 }
+
+.content mark {
+    background-color: #ffff00;
+}
+
+.content code, kbd, samp {
+    font-family: monospace;
+   }
+   
+.content code {
+    background-color: #f0e6d6;
+   }
+
+.content kbd {
+    background-color: #eadcea;
+  }
+  
+.content samp {
+  background-color: #eadcdc;
+  }
+
+.content blockquote {
+    background-color: #eadcea;
+    border-left: 4px solid;
+    border-color: #b496b4;
+    padding: 13px 90px 14px 32px;
+    margin: 0;
+}
+
+.content blockquote .bq {
+    background-color: #eadcea;
+}
+
+.content pre {
+    background-color: #f0e6d6;
+    padding: 12px 87px 12px 14px;
+  }
+
+.content dt {
+    font-weight: bold;
+  }
+
+.content table, th, td {
+    border: 1px solid #b496b4;
+}
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+.content thead {
+    background-color: #eadcea;
+    text-align: center;
+  }    
+
+.content td {
+    padding: 9px 8px;
+  }
