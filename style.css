@@ -15,29 +15,50 @@ div {
 
 .content h1 {
     font-size: 32px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     text-transform: uppercase;
 }
 
 .content h2 {
     font-size: 26px;
+    margin-bottom: 55px; 
     text-transform: uppercase;
+}
+
+.content .caption {
+  margin-top: 55px;
+  margin-bottom: 26px;  
+}
+
+.content .caption2 {
+  margin-top: 60px;
+  margin-bottom: 40px;   
 }
 
 .content h3 {
     font-size: 22px;
+    margin-bottom: 40px;
     text-transform: uppercase;
+}
+
+.content .caption3 {
+  margin-bottom: 22px;    
 }
 
 .content h4 {
     font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .content h5 {
     font-size: 16px;
+    margin-bottom: 25px;
 }
 
 .content h6 {
     font-size: 12px;
+    margin-bottom: 25px;
 }
 
 .content p {
@@ -79,6 +100,16 @@ div {
 .content pre {
     background-color: #f0e6d6;
     padding: 12px 87px 12px 14px;
+  }
+
+  ul ul {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  ol ol {
+    margin-top: 12px;
+    margin-bottom: 12px;
   }
 
 .content dt {
