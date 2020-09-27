@@ -102,12 +102,12 @@ div {
     padding: 12px 87px 12px 14px;
   }
 
-  ul ul {
+.content  ul ul {
     margin-top: 12px;
     margin-bottom: 12px;
   }
 
-  ol ol {
+.content  ol ol {
     margin-top: 12px;
     margin-bottom: 12px;
   }
